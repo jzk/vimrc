@@ -7,3 +7,8 @@ Use curl (for Mac OS X):
 or wget (for most UNIX platforms):
 
      wget -O - https://raw.github.com/jzk/vimrc/master/auto-install.sh | sh
+
+TODO
+-------
+* add git plugin support
+* add more theme

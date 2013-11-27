@@ -12,7 +12,7 @@ die() {
 
 [[ -e "$VIMHOME" ]] && mv $VIMHOME $VIMHOME.bk
 
-git clone git://github.com/jzk/vimrc.git "$VIMHOME"
+git clone https://github.com/jzk/vimrc.git "$VIMHOME"
 cd "$VIMHOME"
 git submodule update --init
 

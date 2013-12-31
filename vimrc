@@ -26,6 +26,24 @@ set backspace=indent,eol,start
 syntax on
 
 
+" vbundle's configuration starts here
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My bundles here:
+"
+" original repos on GitHub
+Bundle 'scrooloose/nerdtree'
+"
+" vim-scripts repos
+" Bundle 'L9'
+" Bundle 'FuzzyFinder'
+" non-GitHub repos
+" Bundle 'git://git.wincent.com/command-t.git'
 
 " Enable file type detection and do language-dependent indenting.
-"filetype plugin indent on
+filetype plugin indent on

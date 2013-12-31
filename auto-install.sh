@@ -10,6 +10,7 @@ die() {
     exit 1
 }
 
+[[ -e "$VIMHOME.bk" ]] && [[ -e "$VIMHOME" ]] && rm -rf $VIMHOME 
 [[ -e "$VIMHOME" ]] && mv $VIMHOME $VIMHOME.bk
 
 git clone https://github.com/jzk/vimrc.git "$VIMHOME"

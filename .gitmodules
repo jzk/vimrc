@@ -4,3 +4,12 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = git://github.com/Lokaltog/vim-easymotion.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://github.com/rainux/Command-T.git

@@ -38,6 +38,8 @@ Bundle 'gmarik/vundle'
 "
 " original repos on GitHub
 Bundle 'scrooloose/nerdtree'
+Bundle 'Lokaltog/vim-easymotion'
+
 "
 " vim-scripts repos
 " Bundle 'L9'
@@ -51,3 +53,6 @@ filetype plugin indent on
 
 " NERD Tree
 nmap <silent> <special> <F2> :NERDTreeToggle<RETURN>
+
+let mapleader = ','
+

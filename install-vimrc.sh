@@ -5,3 +5,4 @@ cd ~
 [[ -e .gvimrc ]] && mv .gvimrc .gvimrc_origin
 ln -sf $VIMHOME/vimrc .vimrc
 ln -sf $VIMHOME/gvimrc .gvimrc
+vim +BundleInstall +qall

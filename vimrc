@@ -38,14 +38,16 @@ Bundle 'gmarik/vundle'
 "
 " original repos on GitHub
 Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-easymotion'
+" Bundle 'Lokaltog/powerline'
 
 "
 " vim-scripts repos
-" Bundle 'L9'
-" Bundle 'FuzzyFinder'
+Bundle 'L9'
+Bundle 'FuzzyFinder'
 " non-GitHub repos
-" Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'git://git.wincent.com/command-t.git'
 
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on

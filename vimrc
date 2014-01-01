@@ -58,5 +58,12 @@ filetype plugin indent on
 nmap <silent> <special> <F2> :NERDTreeToggle<RETURN>
 
 let mapleader = ','
+
+" make ctrlp search file from "project root"
 let g:ctrlp_working_path_mode = 'ra'
 
+" Auto-Reload Your Vimrc
+augroup reload_vimrc " {
+    autocmd!
+    autocmd BufWritePost $MYVIMRC source $MYVIMRC
+augroup END " }

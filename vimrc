@@ -43,6 +43,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'kien/ctrlp.vim'
+Bundle 'jlanzarotta/bufexplorer'
 " Bundle 'Lokaltog/powerline'
 
 "

@@ -42,14 +42,13 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'kien/ctrlp.vim'
 " Bundle 'Lokaltog/powerline'
 
 "
 " vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+
 " non-GitHub repos
-Bundle 'git://git.wincent.com/command-t.git'
 
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
@@ -59,4 +58,5 @@ filetype plugin indent on
 nmap <silent> <special> <F2> :NERDTreeToggle<RETURN>
 
 let mapleader = ','
+let g:ctrlp_working_path_mode = 'ra'
 

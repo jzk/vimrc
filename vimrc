@@ -17,7 +17,7 @@
 set nocompatible
 
 " show line number
-set number
+set relativenumber
 
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
@@ -39,6 +39,8 @@ Bundle 'gmarik/vundle'
 " original repos on GitHub
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-git'
 Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'Lokaltog/powerline'
 

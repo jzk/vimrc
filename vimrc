@@ -69,3 +69,18 @@ augroup reload_vimrc " {
     autocmd!
     autocmd BufWritePost $MYVIMRC source $MYVIMRC
 augroup END " }
+
+"setup chinese compatible environment on windows
+set guifont=Consolas:h12:cANSI
+set encoding=utf-8
+set fileencodings=utf-8,chinese
+set termencoding=utf-8
+if has("win32")
+set fileencoding=chinese
+else
+set fileencoding=utf-8
+endif
+"make menu and console to display chinese correctly
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+language messages zh_CN.utf-8
